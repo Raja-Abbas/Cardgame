@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="all">
+    <div class="box">
+        <h1>Puzzle Game</h1>
+        <div class="game-info">
+            <div class="timer">Time: <span id="timer">00:30</span></div>
+            <button id="try-again-button" class="btn">Try Again</button>
+        </div>
+    <div id="button-container">
+        <button class="draggable" draggable="true">1</button>
+        <button class="draggable" draggable="true">2</button>
+        <button class="draggable" draggable="true">3</button>
+        <button class="draggable" draggable="true">4</button>
+        <button class="draggable" draggable="true">5</button>
+        <button class="draggable" draggable="true">6</button>
+        <button class="draggable" draggable="true">7</button>
+        <button class="draggable" draggable="true">8</button>
+        <button class="draggable" draggable="true">9</button>
+        <button class="draggable" draggable="true">10</button>
+        <button class="draggable" draggable="true">11</button>
+        <button class="draggable" draggable="true">12</button>
+    </div>
+    <div id="result">
+        <p id="result-message"></p>
+    </div>
+</div>
+<div id="high-scores">
+    <h2>High Scores</h2>
+    <ol id="high-score-list"></ol>
+    <p id="highest-score">Highest: <span id="highest-time">-</span></p>
+</div>
+</div>
+    <script src="main.js"></script>
+</body>
+</html>
