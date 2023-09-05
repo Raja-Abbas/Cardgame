@@ -1,101 +1,29 @@
-body{
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,111,1) 57%, rgba(0,212,255,1) 100%);
-    overflow: hidden;
-    background-size: contain;
-}
-.all{
-    display: flex;
-    justify-content: space-between;
-}
-.box{
-    display: inline-flex;
-    flex-direction: column;
-    color: white;
-    text-align: center;
-    margin-top: 15px;
-    justify-content: center;
-    background: black;
-    border: 4px solid orangered;
-    border-radius: 50px;
-    margin-left: 40px;
-}
-#button-container {
-    display: grid;
-    grid-template-columns: 80px 80px 80px;
-    grid-template-rows: 80px 80px 80px;
-    gap: 10px;
-    padding: 10px;
-    border: none;
-    margin-top: 20px;
-}
-
-.timer{
-    background: orangered;
-    color: white;
-    padding: 10px 20px;
-}
-
-#try-again-button{
-    width: 200px;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    padding: 10px 0px;
-    background-color: orangered;
-    color: white;
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background: rgb(2, 46, 2);
     font-weight: bold;
-    cursor: pointer;
-    border: none;
-    margin-top: 5px;
-}
-.game-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 20px;
-}
-button.draggable {
-    width: 70px;
-    height: 70px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    line-height: 70px;
-    cursor: pointer;
-    outline: none;
-    border: none;
-    border: 1px solid red;
-}
-.draggable:hover{
-    background: gray;
-    color: red;
-    transition: all 0.2s ease-in-out;
-}
-.result {
-    margin-top: 20px;
-    text-align: center;
-    font-size: 24px;
-}
-
-#high-scores{
-    margin-top: 20px;
-    background-color: rgb(143, 204, 114);
-    width: 200px;
-    height: 300px;
-    margin: auto;
-    margin-left: 20px;
-    border-radius: 20px;
     color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
-#high-scores ol{
-    color: rgb(61, 61, 61);
+h1 {
+    color: goldenrod;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    cursor: pointer;
 }
